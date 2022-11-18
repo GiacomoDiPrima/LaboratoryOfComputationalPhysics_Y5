@@ -81,7 +81,7 @@ do
         n="$j"
         n+="q"    
         line=$(sed "$n;d" LCP_22-23_students.csv)
-        echo "$line" > $name
+        echo "$line" >> $name
     done
 done
 
